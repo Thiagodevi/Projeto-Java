@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Thiago com HTML</title>
+        <meta name="description" content="ensinamento html">
+    </head>
+    <body>
+        <header>
+            <h1>Quiz interativo para programadores</h1>
+            <p>teste seus conhecimentos em programação e veja qual você consegue fazer</p>
+        </header>
+        
+        <main>
+            <!--treinando textos-->
+            <section>
+                <h2>sobre esse quiz</h2>
+                <p><em> texto</em> exemplo :
+                </p>
+                <p><strong><abbr title="Texto">texto</abbr></strong> <br> 2 exemplo:
+                </p>
+            </section>
+            
+            <!--pergunta1 - multipla escolha-->
+            <section>
+                <h2>pergunta 1 : qual linguagem é usada para estruturar o desenvolvimento web</h2>
+                <form>
+                    <input type="radio" value="Python" id="p1a"
+                    name="pergunta1">
+                    <label for="p1a">Python</label><br>
+                    <input type="radio" value="html" id="p1b"
+                    name="pergunta1">
+                    <label for="p1b">Html</label><br>
+                    <input type="radio" value="Css" id="p1c"
+                    name="pergunta1">
+                    <label for="p1c">Css</label><br>
+                </form>
+            </section>
+
+            <!--Pergunta2 - texto-->
+            <section>
+                <h2>pergunta 2 : na url https://www.google.com o trecho "google.com" é o ___</h2>
+                <form >
+                    <input type="text" id="p2" name="pergunta2"
+                    placeholder="digite aqui">
+                </form>
+            </section>
+
+            <!--pergunta3 - senha-->
+            <section>
+                <h2>pergunta 3 : escreva um exemplo de senha forte</h2>
+                <form>
+                    <input type="password" id="p3"
+                    name="pergunta 3" placeholder="digite a senha aqui">
+                </form>
+            </section>
+
+            <!--pergunta4 - data-->
+            <section>
+                <h2>Pergunta 4 : em que ano o HTML lançou sua primeira versão ?</h2>
+                <form>
+                    <input type="date" id="p4" name="pergunta4">
+                </form>
+            </section>
+
+            <!--Pergunta5 - seleção multipla-->
+            <section>
+                <h2>Pergunta 5 : quais destas tecnologias são consideradas linguagem de programação?</h2>
+                <form>
+                    <input type="checkbox" id="p5a"
+                    name="pergunta5"
+                    value="Javascript">
+                    <label for="p5a">Javascript</label>
+
+                    <input type="checkbox" id="p5b"
+                    name="pergunta5"
+                    value="Python">
+                    <label for="p5b">Python</label>
+
+                    <input type="checkbox" id="p5c"
+                    name="pergunta5"
+                    value="css">
+                    <label for="p5c">css</label>
+                </form>
+            </section>
+
+            <!--Pergunta6 - upload de arquivo-->
+            <section>
+                <h2>pergunta 6 : faça um upload de arquivo contendo código html
+                </h2>
+                <form>
+                    <input type="file" id="p6" name="pergunta6">
+                </form>
+            </section>
+
+            <!--pergunta7 - Menu suspenso-->
+            <section>
+                <h2>Pergunta 7 : selecione o atributo do input que define o seu tipo</h2>
+                <form>
+                    <select name="pergunta7" id="p7">
+                        <option value="id">id</option>
+                        <option value="type">type</option>
+                        <option value="placeholder">placeholder</option>
+                    </select>
+                </form>
+            </section>
+
+            <!--pergunta8 - imagem-->
+            <section>
+                <h2>Pergunta 8 : qual linguagem de programação é representada pelo logotipo abaixo:</h2>
+                <img src="https://wiki.thema.inf.br/wiki/help/Image:java1.png" alt="logotipo"><br>
+                <input type="text" id="p8" name="pergunta8">
+            </section>
+
+            <!--Tabela de pontuação-->
+            <section>
+                <h2>Pontuação</h2>
+                <table border="3">
+                    <thead>
+                        <tr>
+                            <th>Pontuação</th>
+                            <th>avaliação</th>
+                        </tr>
+                    </thead>
+                    
+                    <tbody>
+                        <tr>
+                            <td>0-2</td> 
+                            <td>não desista!</td>
+                        </tr>
+                        <tr>
+                            <td>2-6</td>
+                            <td>precisa melhorar mais um pouco</td>
+                        </tr>
+                        <tr>
+                            <td>6-8</td>
+                            <td>Muito bom</td>
+                        </tr>
+                        <tr>
+                            <td>8-10</td>
+                            <td>Excelente</td>
+                        </tr>
+                    </tbody>
+
+                    <tfoot>
+                        <tr>
+                            <td colspan="2">boa sorte</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </section>
+
+            <!--Listas de respostas-->
+            <section>
+                <h2>verifique suas respostas</h2>
+            <details>
+                <ol>
+                    <li>HTML</li>
+                    <li>dominio</li>
+                    <li>kjshu3423</li>
+                    <li>1991</li>
+                    <li>Javascript, python</li>
+                    <li>o arquivo deve ter extenção html</li>
+                    <li>type</li>
+                    <li>Java</li>
+                </ol>
+            </details>
+            </section>
+
+
+        </main>
+        
+        <footer></footer>
+    </body>
+</html>
